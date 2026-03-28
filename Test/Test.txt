@@ -1,0 +1,198 @@
+1) 	
+	Java is both programing language and a platform. It is built by "Jamse Gosling"  in 1995.
+Java is a high lelev,object oriented,platform independent pragramming language.
+
+Java is platform independent because of its nature WORA which means it can write once and run anywhere due to its bytecode.
+Bytecode can be run on any platform without reqiring any platform specification.
+JVM runs bytecode on any platform because every platform has it own JVM )JVM is platform dependent).
+
+
+2)
+JDK Architecture 
+
+                                 JDK
+								  |
+						|----------------------|
+					  Tools                   JRE 
+					    |                      |
+				  Java and javac          |----------|
+						                 Lib        JVM
+										 
+										 
+JDK - Java Development Kit
+-JDK gives everyhing needed to build the java application.
+-JDK contains Tools and JRE
+   Tools:- tools are used to build and run the applications
+          1)javac-javac is a tool which is used to compile java programm.
+		           - It takes the sourcecode and checks syntaxes ,check for illegal access and any error and then compiles and generates the .class which is called bytecode.
+				   source code-> javac-> .class(bytecode) ->JVM->output
+				   
+		  2)java - java is a tool used to run the application.
+	
+	JRE:Java Runtime Environment(helps to run the java application)
+	   JRE consists of lib and JVM
+	   Lib:LIb are the Libraries which are built by java and used by the programmers.
+	   JVM:Java Vertual Machine
+	         -JVM is a vertual machine(vartual machine: it is not a physical computer but it simulates the real computers to run programms.)
+			 -JVM is a vertual machine it converts the byte code into machine code and executes the programms)
+			 -JVM is plat form dependent.
+	   
+	   
+	   
+	   
+3)
+JVM(Java Vertual Machine)
+JVM is a java vertual machine which takes the bytecode as a input and then convert the bytecode as machine code and executes the program .
+ - bytecode is a intermediate code created by the javac after checking the program syntax ,illegal accesses and possible errrors in it.
+ - JVM is platform independent and it is specific for every platform
+     (Platform means any environment it can be where pragrams are run  /pltaform +operating system)
+	 
+4)WORA
+  WORA  : Write Once Run Anywhere
+ WORA means Write once Run Anywhere :It Means we need to write a program only once and it can be run on any platform(anywhere)
+ java is platform independence because of this nature .In java we can write a program only once it can run on any platform because of bytecode after java program is compiled it generates bytecode because of this byte code and jvm we can run program anywhere.
+   how : IAfter java program is compiled and byte code is generated it can run on anyplatform without changing anything because every platform has its dedicated JVM Due to this we can write program only once and run on any platform >Thats why java is called as platform independence.
+   
+5)
+Bytecode
+-javac compiles the program written by developer and checks for errors after generates the .class
+-.class is called as bytecode
+- byte code is platform independent 
+- bytecode can be run on anyplatform 
+- bytecode is then executed by JVM 
+- JVM executes the bytecode and gives results
+
+6)
+Data Types
+
+Data types are the types of data.It tells what type of data that variables can store inside the memory.
+Data types are used to indicate the type of data that variables are storing.
+
+Data types are 2 types
+  1)Premitive Data types(8)
+  2)Non premetive Data types(Infinite)
+  
+ 1)Premitive datatypes
+  -Premitive datatypes are type which are defined by java
+  -It has fixed size
+  -It stores single values
+  -These has default values
+  -There are 8 premitive datatypes are there
+
+  
+  
+ 2)Non premitive datatypes
+  - Non-Premitive datatypes are defined by the programmers or developer.
+  -It does't has fixed size 
+  -It can store multiple or complex data
+  -there are infinite number of datatypes are there
+  -these data types has no default values
+  -every class is a data type
+  
+  
+
+7)Default values 
+Default values are the values which are same for all data values when value is not assigned
+Every premitive datatype has its own default values.and non premitive datatypes has no deafult values.
+
+//
+class DefaultValue {
+
+byte id;
+short rollNo;
+int num;
+long population;
+double wheight;
+float percentage;
+char grade;
+boolean isClassX;
+
+
+    public DefaultValue(){
+	
+}
+
+}
+//
+
+
+//main method
+
+class Values{
+
+public static void main(String[] args){
+
+DefaultValue instance=new DefaultValue();
+
+System.out.println("Defaultvalues");
+
+System.out.println("Id:"+instance.id);
+System.out.println("rollNo:"+instance.rollNo);
+System.out.println("num:"+instance.num);
+System.out.println("population:"+instance.population);
+System.out.println("wheight:"+instance.wheight);
+System.out.println("percentage:"+instance.percentage);
+System.out.println("grade:"+instance.grade);
+System.out.println("isClassX:"+instance.isClassX);
+
+}
+
+
+}
+//
+
+
+
+8)
+Variables are the reference used to store the data.
+It pointing to the memory location of the value in the constatn pool.
+
+Static variables:
+-Static variables are the variables which are declared withnin the class range
+-Static variables are the variables which are declared with static key word .
+-These are also called as class variables.
+
+
+Local variables:
+-Local variables are the variables which are declared within the method
+and they are only accessed within that method.
+
+variable signature:
+dataType variablename;
+
+
+9)
+Static method:
+-methods are the block of code which can do specific tasks.
+-methods which are declared with static key word are called static methods.
+-Static methods are called by main methods
+
+ 
+10)
+class ShopeKeeper{
+
+static int[] sales(int[] sales){
+int monday=1700;
+int tuesday=2300;
+int wednesday=4209;
+int thursday=3456;
+int friday=4560;
+int saturday=345l;
+int sunday=7835;
+
+String[] sales={monday,tuesday,wednesday,thursday,friday,saturday,sunday};
+
+}
+   
+ }
+
+ 
+class Total{
+public static void main(String[] args){
+
+
+
+}
+} 
+ 
+ 
