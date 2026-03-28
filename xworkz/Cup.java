@@ -1,7 +1,7 @@
 class Cup{
 	
 	String color;
-	double hight;
+	double height;
 	double diameter;
 	int price;
 	boolean glass;	

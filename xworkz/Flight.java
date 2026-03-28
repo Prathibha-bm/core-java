@@ -4,7 +4,7 @@ class Flight{
 	String arrivalTime;
 	int capacity;
 	double price;
-	String dipartureTime;
+	String departureTime;
 		
 	public Flight(){
 		
