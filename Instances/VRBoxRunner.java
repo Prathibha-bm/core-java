@@ -1,0 +1,265 @@
+class VRBoxRunner{
+    public static void main(String[] args) {
+
+        VRBox instance1=new VRBox("Oculus","Quest 2","Plastic",0.5,90.0,true,true,true,1,299.99,"Android/iOS");
+        System.out.println("brand:"+instance1.brand);
+        System.out.println("model:"+instance1.model);
+        System.out.println("material:"+instance1.material);
+        System.out.println("weight:"+instance1.weight);
+        System.out.println("fieldOfView:"+instance1.fieldOfView);
+        System.out.println("hasHeadTracking:"+instance1.hasHeadTracking);
+        System.out.println("hasController:"+instance1.hasController);
+        System.out.println("isWireless:"+instance1.isWireless);
+        System.out.println("vrBoxId:"+instance1.vrBoxId);
+        System.out.println("price:"+instance1.price);
+        System.out.println("compatibility:"+instance1.compatibility);
+
+        VRBox instance2=new VRBox("HTC","Vive","Plastic",0.6,110.0,true,true,false,2,499.99,"PC");
+        System.out.println("brand:"+instance2.brand);
+        System.out.println("model:"+instance2.model);
+        System.out.println("material:"+instance2.material);
+        System.out.println("weight:"+instance2.weight);
+        System.out.println("fieldOfView:"+instance2.fieldOfView);
+        System.out.println("hasHeadTracking:"+instance2.hasHeadTracking);
+        System.out.println("hasController:"+instance2.hasController);
+        System.out.println("isWireless:"+instance2.isWireless);
+        System.out.println("vrBoxId:"+instance2.vrBoxId);
+        System.out.println("price:"+instance2.price);
+        System.out.println("compatibility:"+instance2.compatibility);
+
+        VRBox instance3=new VRBox("Sony","PSVR","Plastic",0.55,100.0,true,true,false,3,399.99,"PlayStation");
+        System.out.println("brand:"+instance3.brand);
+        System.out.println("model:"+instance3.model);
+        System.out.println("material:"+instance3.material);
+        System.out.println("weight:"+instance3.weight);
+        System.out.println("fieldOfView:"+instance3.fieldOfView);
+        System.out.println("hasHeadTracking:"+instance3.hasHeadTracking);
+        System.out.println("hasController:"+instance3.hasController);
+        System.out.println("isWireless:"+instance3.isWireless);
+        System.out.println("vrBoxId:"+instance3.vrBoxId);
+        System.out.println("price:"+instance3.price);
+        System.out.println("compatibility:"+instance3.compatibility);
+
+        VRBox instance4=new VRBox("Samsung","Gear VR","Plastic",0.4,96.0,false,false,true,4,199.99,"Android");
+        System.out.println("brand:"+instance4.brand);
+        System.out.println("model:"+instance4.model);
+        System.out.println("material:"+instance4.material);
+        System.out.println("weight:"+instance4.weight);
+        System.out.println("fieldOfView:"+instance4.fieldOfView);
+        System.out.println("hasHeadTracking:"+instance4.hasHeadTracking);
+        System.out.println("hasController:"+instance4.hasController);
+        System.out.println("isWireless:"+instance4.isWireless);
+        System.out.println("vrBoxId:"+instance4.vrBoxId);
+        System.out.println("price:"+instance4.price);
+        System.out.println("compatibility:"+instance4.compatibility);
+
+        VRBox instance5=new VRBox("Google","Cardboard","Cardboard",0.2,80.0,false,false,true,5,19.99,"Android/iOS");
+        System.out.println("brand:"+instance5.brand);
+        System.out.println("model:"+instance5.model);
+        System.out.println("material:"+instance5.material);
+        System.out.println("weight:"+instance5.weight);
+        System.out.println("fieldOfView:"+instance5.fieldOfView);
+        System.out.println("hasHeadTracking:"+instance5.hasHeadTracking);
+        System.out.println("hasController:"+instance5.hasController);
+        System.out.println("isWireless:"+instance5.isWireless);
+        System.out.println("vrBoxId:"+instance5.vrBoxId);
+        System.out.println("price:"+instance5.price);
+        System.out.println("compatibility:"+instance5.compatibility);
+
+        VRBox instance6=new VRBox("Meta","Quest 3","Plastic",0.52,100.0,true,true,true,6,499.99,"Android/iOS");
+        System.out.println("brand:"+instance6.brand);
+        System.out.println("model:"+instance6.model);
+        System.out.println("material:"+instance6.material);
+        System.out.println("weight:"+instance6.weight);
+        System.out.println("fieldOfView:"+instance6.fieldOfView);
+        System.out.println("hasHeadTracking:"+instance6.hasHeadTracking);
+        System.out.println("hasController:"+instance6.hasController);
+        System.out.println("isWireless:"+instance6.isWireless);
+        System.out.println("vrBoxId:"+instance6.vrBoxId);
+        System.out.println("price:"+instance6.price);
+        System.out.println("compatibility:"+instance6.compatibility);
+
+        VRBox instance7=new VRBox("Valve","Index","Metal",0.8,130.0,true,true,false,7,999.99,"PC");
+        System.out.println("brand:"+instance7.brand);
+        System.out.println("model:"+instance7.model);
+        System.out.println("material:"+instance7.material);
+        System.out.println("weight:"+instance7.weight);
+        System.out.println("fieldOfView:"+instance7.fieldOfView);
+        System.out.println("hasHeadTracking:"+instance7.hasHeadTracking);
+        System.out.println("hasController:"+instance7.hasController);
+        System.out.println("isWireless:"+instance7.isWireless);
+        System.out.println("vrBoxId:"+instance7.vrBoxId);
+        System.out.println("price:"+instance7.price);
+        System.out.println("compatibility:"+instance7.compatibility);
+
+        VRBox instance8=new VRBox("Pico","Neo 3","Plastic",0.53,98.0,true,true,true,8,399.99,"Android");
+        System.out.println("brand:"+instance8.brand);
+        System.out.println("model:"+instance8.model);
+        System.out.println("material:"+instance8.material);
+        System.out.println("weight:"+instance8.weight);
+        System.out.println("fieldOfView:"+instance8.fieldOfView);
+        System.out.println("hasHeadTracking:"+instance8.hasHeadTracking);
+        System.out.println("hasController:"+instance8.hasController);
+        System.out.println("isWireless:"+instance8.isWireless);
+        System.out.println("vrBoxId:"+instance8.vrBoxId);
+        System.out.println("price:"+instance8.price);
+        System.out.println("compatibility:"+instance8.compatibility);
+
+        VRBox instance9=new VRBox("Lenovo","Mirage","Plastic",0.6,105.0,true,true,false,9,299.99,"PC");
+        System.out.println("brand:"+instance9.brand);
+        System.out.println("model:"+instance9.model);
+        System.out.println("material:"+instance9.material);
+        System.out.println("weight:"+instance9.weight);
+        System.out.println("fieldOfView:"+instance9.fieldOfView);
+        System.out.println("hasHeadTracking:"+instance9.hasHeadTracking);
+        System.out.println("hasController:"+instance9.hasController);
+        System.out.println("isWireless:"+instance9.isWireless);
+        System.out.println("vrBoxId:"+instance9.vrBoxId);
+        System.out.println("price:"+instance9.price);
+        System.out.println("compatibility:"+instance9.compatibility);
+
+        VRBox instance10=new VRBox("HP","Reverb G2","Plastic",0.55,114.0,true,true,false,10,599.99,"PC");
+        System.out.println("brand:"+instance10.brand);
+        System.out.println("model:"+instance10.model);
+        System.out.println("material:"+instance10.material);
+        System.out.println("weight:"+instance10.weight);
+        System.out.println("fieldOfView:"+instance10.fieldOfView);
+        System.out.println("hasHeadTracking:"+instance10.hasHeadTracking);
+        System.out.println("hasController:"+instance10.hasController);
+        System.out.println("isWireless:"+instance10.isWireless);
+        System.out.println("vrBoxId:"+instance10.vrBoxId);
+        System.out.println("price:"+instance10.price);
+        System.out.println("compatibility:"+instance10.compatibility);
+
+        VRBox instance11=new VRBox("Oculus","Quest Pro","Plastic",0.7,106.0,true,true,true,11,999.99,"Android/iOS");
+        System.out.println("brand:"+instance11.brand);
+        System.out.println("model:"+instance11.model);
+        System.out.println("material:"+instance11.material);
+        System.out.println("weight:"+instance11.weight);
+        System.out.println("fieldOfView:"+instance11.fieldOfView);
+        System.out.println("hasHeadTracking:"+instance11.hasHeadTracking);
+        System.out.println("hasController:"+instance11.hasController);
+        System.out.println("isWireless:"+instance11.isWireless);
+        System.out.println("vrBoxId:"+instance11.vrBoxId);
+        System.out.println("price:"+instance11.price);
+        System.out.println("compatibility:"+instance11.compatibility);
+
+        VRBox instance12=new VRBox("HTC","Vive Pro","Plastic",0.75,110.0,true,true,false,12,799.99,"PC");
+        System.out.println("brand:"+instance12.brand);
+        System.out.println("model:"+instance12.model);
+        System.out.println("material:"+instance12.material);
+        System.out.println("weight:"+instance12.weight);
+        System.out.println("fieldOfView:"+instance12.fieldOfView);
+        System.out.println("hasHeadTracking:"+instance12.hasHeadTracking);
+        System.out.println("hasController:"+instance12.hasController);
+        System.out.println("isWireless:"+instance12.isWireless);
+        System.out.println("vrBoxId:"+instance12.vrBoxId);
+        System.out.println("price:"+instance12.price);
+        System.out.println("compatibility:"+instance12.compatibility);
+
+        VRBox instance13=new VRBox("Sony","PSVR2","Plastic",0.6,110.0,true,true,false,13,549.99,"PlayStation");
+        System.out.println("brand:"+instance13.brand);
+        System.out.println("model:"+instance13.model);
+        System.out.println("material:"+instance13.material);
+        System.out.println("weight:"+instance13.weight);
+        System.out.println("fieldOfView:"+instance13.fieldOfView);
+        System.out.println("hasHeadTracking:"+instance13.hasHeadTracking);
+        System.out.println("hasController:"+instance13.hasController);
+        System.out.println("isWireless:"+instance13.isWireless);
+        System.out.println("vrBoxId:"+instance13.vrBoxId);
+        System.out.println("price:"+instance13.price);
+        System.out.println("compatibility:"+instance13.compatibility);
+
+        VRBox instance14=new VRBox("Samsung","Odyssey","Plastic",0.65,110.0,true,true,false,14,499.99,"PC");
+        System.out.println("brand:"+instance14.brand);
+        System.out.println("model:"+instance14.model);
+        System.out.println("material:"+instance14.material);
+        System.out.println("weight:"+instance14.weight);
+        System.out.println("fieldOfView:"+instance14.fieldOfView);
+        System.out.println("hasHeadTracking:"+instance14.hasHeadTracking);
+        System.out.println("hasController:"+instance14.hasController);
+        System.out.println("isWireless:"+instance14.isWireless);
+        System.out.println("vrBoxId:"+instance14.vrBoxId);
+        System.out.println("price:"+instance14.price);
+        System.out.println("compatibility:"+instance14.compatibility);
+
+        VRBox instance15=new VRBox("Google","Daydream","Plastic",0.3,90.0,false,true,true,15,99.99,"Android");
+        System.out.println("brand:"+instance15.brand);
+        System.out.println("model:"+instance15.model);
+        System.out.println("material:"+instance15.material);
+        System.out.println("weight:"+instance15.weight);
+        System.out.println("fieldOfView:"+instance15.fieldOfView);
+        System.out.println("hasHeadTracking:"+instance15.hasHeadTracking);
+        System.out.println("hasController:"+instance15.hasController);
+        System.out.println("isWireless:"+instance15.isWireless);
+        System.out.println("vrBoxId:"+instance15.vrBoxId);
+        System.out.println("price:"+instance15.price);
+        System.out.println("compatibility:"+instance15.compatibility);
+
+        VRBox instance16=new VRBox("Meta","Quest Lite","Plastic",0.45,95.0,true,false,true,16,249.99,"Android/iOS");
+        System.out.println("brand:"+instance16.brand);
+        System.out.println("model:"+instance16.model);
+        System.out.println("material:"+instance16.material);
+        System.out.println("weight:"+instance16.weight);
+        System.out.println("fieldOfView:"+instance16.fieldOfView);
+        System.out.println("hasHeadTracking:"+instance16.hasHeadTracking);
+        System.out.println("hasController:"+instance16.hasController);
+        System.out.println("isWireless:"+instance16.isWireless);
+        System.out.println("vrBoxId:"+instance16.vrBoxId);
+        System.out.println("price:"+instance16.price);
+        System.out.println("compatibility:"+instance16.compatibility);
+
+        VRBox instance17=new VRBox("Valve","Index Lite","Plastic",0.7,120.0,true,true,false,17,699.99,"PC");
+        System.out.println("brand:"+instance17.brand);
+        System.out.println("model:"+instance17.model);
+        System.out.println("material:"+instance17.material);
+        System.out.println("weight:"+instance17.weight);
+        System.out.println("fieldOfView:"+instance17.fieldOfView);
+        System.out.println("hasHeadTracking:"+instance17.hasHeadTracking);
+        System.out.println("hasController:"+instance17.hasController);
+        System.out.println("isWireless:"+instance17.isWireless);
+        System.out.println("vrBoxId:"+instance17.vrBoxId);
+        System.out.println("price:"+instance17.price);
+        System.out.println("compatibility:"+instance17.compatibility);
+
+        VRBox instance18=new VRBox("Pico","Neo 4","Plastic",0.5,105.0,true,true,true,18,429.99,"Android");
+        System.out.println("brand:"+instance18.brand);
+        System.out.println("model:"+instance18.model);
+        System.out.println("material:"+instance18.material);
+        System.out.println("weight:"+instance18.weight);
+        System.out.println("fieldOfView:"+instance18.fieldOfView);
+        System.out.println("hasHeadTracking:"+instance18.hasHeadTracking);
+        System.out.println("hasController:"+instance18.hasController);
+        System.out.println("isWireless:"+instance18.isWireless);
+        System.out.println("vrBoxId:"+instance18.vrBoxId);
+        System.out.println("price:"+instance18.price);
+        System.out.println("compatibility:"+instance18.compatibility);
+
+        VRBox instance19=new VRBox("Lenovo","VR S3","Plastic",0.58,100.0,true,true,true,19,329.99,"Android");
+        System.out.println("brand:"+instance19.brand);
+        System.out.println("model:"+instance19.model);
+        System.out.println("material:"+instance19.material);
+        System.out.println("weight:"+instance19.weight);
+        System.out.println("fieldOfView:"+instance19.fieldOfView);
+        System.out.println("hasHeadTracking:"+instance19.hasHeadTracking);
+        System.out.println("hasController:"+instance19.hasController);
+        System.out.println("isWireless:"+instance19.isWireless);
+        System.out.println("vrBoxId:"+instance19.vrBoxId);
+        System.out.println("price:"+instance19.price);
+        System.out.println("compatibility:"+instance19.compatibility);
+
+        VRBox instance20=new VRBox("HP","Reverb G3","Plastic",0.57,115.0,true,true,false,20,649.99,"PC");
+        System.out.println("brand:"+instance20.brand);
+        System.out.println("model:"+instance20.model);
+        System.out.println("material:"+instance20.material);
+        System.out.println("weight:"+instance20.weight);
+        System.out.println("fieldOfView:"+instance20.fieldOfView);
+        System.out.println("hasHeadTracking:"+instance20.hasHeadTracking);
+        System.out.println("hasController:"+instance20.hasController);
+        System.out.println("isWireless:"+instance20.isWireless);
+        System.out.println("vrBoxId:"+instance20.vrBoxId);
+        System.out.println("price:"+instance20.price);
+        System.out.println("compatibility:"+instance20.compatibility);
+
+    }
+}

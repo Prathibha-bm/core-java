@@ -1,0 +1,265 @@
+class RockRunner{
+    public static void main(String[] args){
+
+        Rock instance1 = new Rock("Granite", 5.0, "Igneous", true, 1, 49.99, "Gray", 7, true, "India");
+        System.out.println("name:" + instance1.name);
+        System.out.println("weight:" + instance1.weight);
+        System.out.println("type:" + instance1.type);
+        System.out.println("isIgneous:" + instance1.isIgneous);
+        System.out.println("rockId:" + instance1.rockId);
+        System.out.println("price:" + instance1.price);
+        System.out.println("color:" + instance1.color);
+        System.out.println("hardness:" + instance1.hardness);
+        System.out.println("isPolished:" + instance1.isPolished);
+        System.out.println("origin:" + instance1.origin);
+        System.out.println("..........................");
+
+        Rock instance2 = new Rock("Basalt", 6.5, "Igneous", true, 2, 59.99, "Black", 6, false, "USA");
+        System.out.println("name:" + instance2.name);
+        System.out.println("weight:" + instance2.weight);
+        System.out.println("type:" + instance2.type);
+        System.out.println("isIgneous:" + instance2.isIgneous);
+        System.out.println("rockId:" + instance2.rockId);
+        System.out.println("price:" + instance2.price);
+        System.out.println("color:" + instance2.color);
+        System.out.println("hardness:" + instance2.hardness);
+        System.out.println("isPolished:" + instance2.isPolished);
+        System.out.println("origin:" + instance2.origin);
+        System.out.println("..........................");
+
+        Rock instance3 = new Rock("Sandstone", 8.0, "Sedimentary", false, 3, 39.99, "Yellow", 5, true, "Egypt");
+        System.out.println("name:" + instance3.name);
+        System.out.println("weight:" + instance3.weight);
+        System.out.println("type:" + instance3.type);
+        System.out.println("isIgneous:" + instance3.isIgneous);
+        System.out.println("rockId:" + instance3.rockId);
+        System.out.println("price:" + instance3.price);
+        System.out.println("color:" + instance3.color);
+        System.out.println("hardness:" + instance3.hardness);
+        System.out.println("isPolished:" + instance3.isPolished);
+        System.out.println("origin:" + instance3.origin);
+        System.out.println("..........................");
+
+        Rock instance4 = new Rock("Marble", 10.0, "Metamorphic", false, 4, 79.99, "White", 6, true, "Italy");
+        System.out.println("name:" + instance4.name);
+        System.out.println("weight:" + instance4.weight);
+        System.out.println("type:" + instance4.type);
+        System.out.println("isIgneous:" + instance4.isIgneous);
+        System.out.println("rockId:" + instance4.rockId);
+        System.out.println("price:" + instance4.price);
+        System.out.println("color:" + instance4.color);
+        System.out.println("hardness:" + instance4.hardness);
+        System.out.println("isPolished:" + instance4.isPolished);
+        System.out.println("origin:" + instance4.origin);
+        System.out.println("..........................");
+
+        Rock instance5 = new Rock("Slate", 7.5, "Metamorphic", false, 5, 69.99, "Gray", 5, true, "Spain");
+        System.out.println("name:" + instance5.name);
+        System.out.println("weight:" + instance5.weight);
+        System.out.println("type:" + instance5.type);
+        System.out.println("isIgneous:" + instance5.isIgneous);
+        System.out.println("rockId:" + instance5.rockId);
+        System.out.println("price:" + instance5.price);
+        System.out.println("color:" + instance5.color);
+        System.out.println("hardness:" + instance5.hardness);
+        System.out.println("isPolished:" + instance5.isPolished);
+        System.out.println("origin:" + instance5.origin);
+        System.out.println("..........................");
+
+        Rock instance6 = new Rock("Obsidian", 4.0, "Igneous", true, 6, 89.99, "Black", 7, true, "Mexico");
+        System.out.println("name:" + instance6.name);
+        System.out.println("weight:" + instance6.weight);
+        System.out.println("type:" + instance6.type);
+        System.out.println("isIgneous:" + instance6.isIgneous);
+        System.out.println("rockId:" + instance6.rockId);
+        System.out.println("price:" + instance6.price);
+        System.out.println("color:" + instance6.color);
+        System.out.println("hardness:" + instance6.hardness);
+        System.out.println("isPolished:" + instance6.isPolished);
+        System.out.println("origin:" + instance6.origin);
+        System.out.println("..........................");
+
+        Rock instance7 = new Rock("Limestone", 9.0, "Sedimentary", false, 7, 29.99, "White", 4, false, "India");
+        System.out.println("name:" + instance7.name);
+        System.out.println("weight:" + instance7.weight);
+        System.out.println("type:" + instance7.type);
+        System.out.println("isIgneous:" + instance7.isIgneous);
+        System.out.println("rockId:" + instance7.rockId);
+        System.out.println("price:" + instance7.price);
+        System.out.println("color:" + instance7.color);
+        System.out.println("hardness:" + instance7.hardness);
+        System.out.println("isPolished:" + instance7.isPolished);
+        System.out.println("origin:" + instance7.origin);
+        System.out.println("..........................");
+
+        Rock instance8 = new Rock("Gneiss", 11.0, "Metamorphic", false, 8, 99.99, "Pink", 6, true, "Brazil");
+        System.out.println("name:" + instance8.name);
+        System.out.println("weight:" + instance8.weight);
+        System.out.println("type:" + instance8.type);
+        System.out.println("isIgneous:" + instance8.isIgneous);
+        System.out.println("rockId:" + instance8.rockId);
+        System.out.println("price:" + instance8.price);
+        System.out.println("color:" + instance8.color);
+        System.out.println("hardness:" + instance8.hardness);
+        System.out.println("isPolished:" + instance8.isPolished);
+        System.out.println("origin:" + instance8.origin);
+        System.out.println("..........................");
+
+        Rock instance9 = new Rock("Quartzite", 12.0, "Metamorphic", false, 9, 119.99, "White", 7, true, "Canada");
+        System.out.println("name:" + instance9.name);
+        System.out.println("weight:" + instance9.weight);
+        System.out.println("type:" + instance9.type);
+        System.out.println("isIgneous:" + instance9.isIgneous);
+        System.out.println("rockId:" + instance9.rockId);
+        System.out.println("price:" + instance9.price);
+        System.out.println("color:" + instance9.color);
+        System.out.println("hardness:" + instance9.hardness);
+        System.out.println("isPolished:" + instance9.isPolished);
+        System.out.println("origin:" + instance9.origin);
+        System.out.println("..........................");
+
+        Rock instance10 = new Rock("Dolomite", 10.5, "Sedimentary", false, 10, 79.99, "Gray", 4, false, "Italy");
+        System.out.println("name:" + instance10.name);
+        System.out.println("weight:" + instance10.weight);
+        System.out.println("type:" + instance10.type);
+        System.out.println("isIgneous:" + instance10.isIgneous);
+        System.out.println("rockId:" + instance10.rockId);
+        System.out.println("price:" + instance10.price);
+        System.out.println("color:" + instance10.color);
+        System.out.println("hardness:" + instance10.hardness);
+        System.out.println("isPolished:" + instance10.isPolished);
+        System.out.println("origin:" + instance10.origin);
+        System.out.println("..........................");
+
+        Rock instance11 = new Rock("Andesite", 6.0, "Igneous", true, 11, 54.99, "Gray", 6, true, "USA");
+        System.out.println("name:" + instance11.name);
+        System.out.println("weight:" + instance11.weight);
+        System.out.println("type:" + instance11.type);
+        System.out.println("isIgneous:" + instance11.isIgneous);
+        System.out.println("rockId:" + instance11.rockId);
+        System.out.println("price:" + instance11.price);
+        System.out.println("color:" + instance11.color);
+        System.out.println("hardness:" + instance11.hardness);
+        System.out.println("isPolished:" + instance11.isPolished);
+        System.out.println("origin:" + instance11.origin);
+        System.out.println("..........................");
+
+        Rock instance12 = new Rock("Rhyolite", 7.0, "Igneous", true, 12, 64.99, "Pink", 6, false, "Mexico");
+        System.out.println("name:" + instance12.name);
+        System.out.println("weight:" + instance12.weight);
+        System.out.println("type:" + instance12.type);
+        System.out.println("isIgneous:" + instance12.isIgneous);
+        System.out.println("rockId:" + instance12.rockId);
+        System.out.println("price:" + instance12.price);
+        System.out.println("color:" + instance12.color);
+        System.out.println("hardness:" + instance12.hardness);
+        System.out.println("isPolished:" + instance12.isPolished);
+        System.out.println("origin:" + instance12.origin);
+        System.out.println("..........................");
+
+        Rock instance13 = new Rock("Limestone", 8.5, "Sedimentary", false, 13, 39.99, "Beige", 4, false, "India");
+        System.out.println("name:" + instance13.name);
+        System.out.println("weight:" + instance13.weight);
+        System.out.println("type:" + instance13.type);
+        System.out.println("isIgneous:" + instance13.isIgneous);
+        System.out.println("rockId:" + instance13.rockId);
+        System.out.println("price:" + instance13.price);
+        System.out.println("color:" + instance13.color);
+        System.out.println("hardness:" + instance13.hardness);
+        System.out.println("isPolished:" + instance13.isPolished);
+        System.out.println("origin:" + instance13.origin);
+        System.out.println("..........................");
+
+        Rock instance14 = new Rock("Granite", 9.5, "Igneous", true, 14, 59.99, "Pink", 7, true, "India");
+        System.out.println("name:" + instance14.name);
+        System.out.println("weight:" + instance14.weight);
+        System.out.println("type:" + instance14.type);
+        System.out.println("isIgneous:" + instance14.isIgneous);
+        System.out.println("rockId:" + instance14.rockId);
+        System.out.println("price:" + instance14.price);
+        System.out.println("color:" + instance14.color);
+        System.out.println("hardness:" + instance14.hardness);
+        System.out.println("isPolished:" + instance14.isPolished);
+        System.out.println("origin:" + instance14.origin);
+        System.out.println("..........................");
+
+        Rock instance15 = new Rock("Marble", 11.0, "Metamorphic", false, 15, 79.99, "Black", 6, true, "Italy");
+        System.out.println("name:" + instance15.name);
+        System.out.println("weight:" + instance15.weight);
+        System.out.println("type:" + instance15.type);
+        System.out.println("isIgneous:" + instance15.isIgneous);
+        System.out.println("rockId:" + instance15.rockId);
+        System.out.println("price:" + instance15.price);
+        System.out.println("color:" + instance15.color);
+        System.out.println("hardness:" + instance15.hardness);
+        System.out.println("isPolished:" + instance15.isPolished);
+        System.out.println("origin:" + instance15.origin);
+        System.out.println("..........................");
+
+        Rock instance16 = new Rock("Quartzite", 12.5, "Metamorphic", false, 16, 119.99, "Pink", 7, true, "Canada");
+        System.out.println("name:" + instance16.name);
+        System.out.println("weight:" + instance16.weight);
+        System.out.println("type:" + instance16.type);
+        System.out.println("isIgneous:" + instance16.isIgneous);
+        System.out.println("rockId:" + instance16.rockId);
+        System.out.println("price:" + instance16.price);
+        System.out.println("color:" + instance16.color);
+        System.out.println("hardness:" + instance16.hardness);
+        System.out.println("isPolished:" + instance16.isPolished);
+        System.out.println("origin:" + instance16.origin);
+        System.out.println("..........................");
+
+        Rock instance17 = new Rock("Basalt", 6.0, "Igneous", true, 17, 59.99, "Gray", 6, true, "USA");
+        System.out.println("name:" + instance17.name);
+        System.out.println("weight:" + instance17.weight);
+        System.out.println("type:" + instance17.type);
+        System.out.println("isIgneous:" + instance17.isIgneous);
+        System.out.println("rockId:" + instance17.rockId);
+        System.out.println("price:" + instance17.price);
+        System.out.println("color:" + instance17.color);
+        System.out.println("hardness:" + instance17.hardness);
+        System.out.println("isPolished:" + instance17.isPolished);
+        System.out.println("origin:" + instance17.origin);
+        System.out.println("..........................");
+
+        Rock instance18 = new Rock("Andesite", 7.0, "Igneous", true, 18, 54.99, "Brown", 6, false, "USA");
+        System.out.println("name:" + instance18.name);
+        System.out.println("weight:" + instance18.weight);
+        System.out.println("type:" + instance18.type);
+        System.out.println("isIgneous:" + instance18.isIgneous);
+        System.out.println("rockId:" + instance18.rockId);
+        System.out.println("price:" + instance18.price);
+        System.out.println("color:" + instance18.color);
+        System.out.println("hardness:" + instance18.hardness);
+        System.out.println("isPolished:" + instance18.isPolished);
+        System.out.println("origin:" + instance18.origin);
+        System.out.println("..........................");
+
+        Rock instance19 = new Rock("Rhyolite", 8.0, "Igneous", true, 19, 64.99, "Red", 6, true, "Mexico");
+        System.out.println("name:" + instance19.name);
+        System.out.println("weight:" + instance19.weight);
+        System.out.println("type:" + instance19.type);
+        System.out.println("isIgneous:" + instance19.isIgneous);
+        System.out.println("rockId:" + instance19.rockId);
+        System.out.println("price:" + instance19.price);
+        System.out.println("color:" + instance19.color);
+        System.out.println("hardness:" + instance19.hardness);
+        System.out.println("isPolished:" + instance19.isPolished);
+        System.out.println("origin:" + instance19.origin);
+        System.out.println("..........................");
+
+        Rock instance20 = new Rock("Dolomite", 10.0, "Sedimentary", false, 20, 79.99, "White", 5, true, "Italy");
+        System.out.println("name:" + instance20.name);
+        System.out.println("weight:" + instance20.weight);
+        System.out.println("type:" + instance20.type);
+        System.out.println("isIgneous:" + instance20.isIgneous);
+        System.out.println("rockId:" + instance20.rockId);
+        System.out.println("price:" + instance20.price);
+        System.out.println("color:" + instance20.color);
+        System.out.println("hardness:" + instance20.hardness);
+        System.out.println("isPolished:" + instance20.isPolished);
+        System.out.println("origin:" + instance20.origin);
+        System.out.println("..........................");
+
+    }
+}
