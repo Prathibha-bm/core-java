@@ -1,0 +1,265 @@
+class BellRunner{
+    public static void main(String[] args){
+
+        Bell instance1=new Bell("Liberty",5.0,"Iron",true,1,49.99,"Hand Bell",50,true,"Red");
+        System.out.println("brand:"+instance1.brand);
+        System.out.println("weight:"+instance1.weight);
+        System.out.println("material:"+instance1.material);
+        System.out.println("isAdjustable:"+instance1.isAdjustable);
+        System.out.println("bellId:"+instance1.bellId);
+        System.out.println("price:"+instance1.price);
+        System.out.println("type:"+instance1.type);
+        System.out.println("maxVolume:"+instance1.maxVolume);
+        System.out.println("hasHandle:"+instance1.hasHandle);
+        System.out.println("color:"+instance1.color);
+        System.out.println("..........................");
+
+        Bell instance2=new Bell("Champion",7.5,"Steel",false,2,59.99,"Desk Bell",70,true,"Silver");
+        System.out.println("brand:"+instance2.brand);
+        System.out.println("weight:"+instance2.weight);
+        System.out.println("material:"+instance2.material);
+        System.out.println("isAdjustable:"+instance2.isAdjustable);
+        System.out.println("bellId:"+instance2.bellId);
+        System.out.println("price:"+instance2.price);
+        System.out.println("type:"+instance2.type);
+        System.out.println("maxVolume:"+instance2.maxVolume);
+        System.out.println("hasHandle:"+instance2.hasHandle);
+        System.out.println("color:"+instance2.color);
+        System.out.println("..........................");
+
+        Bell instance3=new Bell("Everest",10.0,"Brass",true,3,79.99,"Hand Bell",90,true,"Gold");
+        System.out.println("brand:"+instance3.brand);
+        System.out.println("weight:"+instance3.weight);
+        System.out.println("material:"+instance3.material);
+        System.out.println("isAdjustable:"+instance3.isAdjustable);
+        System.out.println("bellId:"+instance3.bellId);
+        System.out.println("price:"+instance3.price);
+        System.out.println("type:"+instance3.type);
+        System.out.println("maxVolume:"+instance3.maxVolume);
+        System.out.println("hasHandle:"+instance3.hasHandle);
+        System.out.println("color:"+instance3.color);
+        System.out.println("..........................");
+
+        Bell instance4=new Bell("Harmony",12.0,"Bronze",false,4,89.99,"Temple Bell",100,false,"Copper");
+        System.out.println("brand:"+instance4.brand);
+        System.out.println("weight:"+instance4.weight);
+        System.out.println("material:"+instance4.material);
+        System.out.println("isAdjustable:"+instance4.isAdjustable);
+        System.out.println("bellId:"+instance4.bellId);
+        System.out.println("price:"+instance4.price);
+        System.out.println("type:"+instance4.type);
+        System.out.println("maxVolume:"+instance4.maxVolume);
+        System.out.println("hasHandle:"+instance4.hasHandle);
+        System.out.println("color:"+instance4.color);
+        System.out.println("..........................");
+
+        Bell instance5=new Bell("Sonata",15.0,"Steel",true,5,99.99,"Hand Bell",120,true,"Blue");
+        System.out.println("brand:"+instance5.brand);
+        System.out.println("weight:"+instance5.weight);
+        System.out.println("material:"+instance5.material);
+        System.out.println("isAdjustable:"+instance5.isAdjustable);
+        System.out.println("bellId:"+instance5.bellId);
+        System.out.println("price:"+instance5.price);
+        System.out.println("type:"+instance5.type);
+        System.out.println("maxVolume:"+instance5.maxVolume);
+        System.out.println("hasHandle:"+instance5.hasHandle);
+        System.out.println("color:"+instance5.color);
+        System.out.println("..........................");
+
+        Bell instance6=new Bell("Liberty",6.0,"Iron",true,6,54.99,"Hand Bell",55,true,"Green");
+        System.out.println("brand:"+instance6.brand);
+        System.out.println("weight:"+instance6.weight);
+        System.out.println("material:"+instance6.material);
+        System.out.println("isAdjustable:"+instance6.isAdjustable);
+        System.out.println("bellId:"+instance6.bellId);
+        System.out.println("price:"+instance6.price);
+        System.out.println("type:"+instance6.type);
+        System.out.println("maxVolume:"+instance6.maxVolume);
+        System.out.println("hasHandle:"+instance6.hasHandle);
+        System.out.println("color:"+instance6.color);
+        System.out.println("..........................");
+
+        Bell instance7=new Bell("Champion",8.0,"Steel",false,7,64.99,"Desk Bell",75,true,"Red");
+        System.out.println("brand:"+instance7.brand);
+        System.out.println("weight:"+instance7.weight);
+        System.out.println("material:"+instance7.material);
+        System.out.println("isAdjustable:"+instance7.isAdjustable);
+        System.out.println("bellId:"+instance7.bellId);
+        System.out.println("price:"+instance7.price);
+        System.out.println("type:"+instance7.type);
+        System.out.println("maxVolume:"+instance7.maxVolume);
+        System.out.println("hasHandle:"+instance7.hasHandle);
+        System.out.println("color:"+instance7.color);
+        System.out.println("..........................");
+
+        Bell instance8=new Bell("Everest",11.0,"Brass",true,8,84.99,"Hand Bell",95,true,"Silver");
+        System.out.println("brand:"+instance8.brand);
+        System.out.println("weight:"+instance8.weight);
+        System.out.println("material:"+instance8.material);
+        System.out.println("isAdjustable:"+instance8.isAdjustable);
+        System.out.println("bellId:"+instance8.bellId);
+        System.out.println("price:"+instance8.price);
+        System.out.println("type:"+instance8.type);
+        System.out.println("maxVolume:"+instance8.maxVolume);
+        System.out.println("hasHandle:"+instance8.hasHandle);
+        System.out.println("color:"+instance8.color);
+        System.out.println("..........................");
+
+        Bell instance9=new Bell("Harmony",13.0,"Bronze",false,9,94.99,"Temple Bell",110,false,"Copper");
+        System.out.println("brand:"+instance9.brand);
+        System.out.println("weight:"+instance9.weight);
+        System.out.println("material:"+instance9.material);
+        System.out.println("isAdjustable:"+instance9.isAdjustable);
+        System.out.println("bellId:"+instance9.bellId);
+        System.out.println("price:"+instance9.price);
+        System.out.println("type:"+instance9.type);
+        System.out.println("maxVolume:"+instance9.maxVolume);
+        System.out.println("hasHandle:"+instance9.hasHandle);
+        System.out.println("color:"+instance9.color);
+        System.out.println("..........................");
+
+        Bell instance10=new Bell("Sonata",16.0,"Steel",true,10,104.99,"Hand Bell",125,true,"Yellow");
+        System.out.println("brand:"+instance10.brand);
+        System.out.println("weight:"+instance10.weight);
+        System.out.println("material:"+instance10.material);
+        System.out.println("isAdjustable:"+instance10.isAdjustable);
+        System.out.println("bellId:"+instance10.bellId);
+        System.out.println("price:"+instance10.price);
+        System.out.println("type:"+instance10.type);
+        System.out.println("maxVolume:"+instance10.maxVolume);
+        System.out.println("hasHandle:"+instance10.hasHandle);
+        System.out.println("color:"+instance10.color);
+        System.out.println("..........................");
+
+        Bell instance11=new Bell("Liberty",6.5,"Iron",true,11,59.99,"Hand Bell",60,true,"Orange");
+        System.out.println("brand:"+instance11.brand);
+        System.out.println("weight:"+instance11.weight);
+        System.out.println("material:"+instance11.material);
+        System.out.println("isAdjustable:"+instance11.isAdjustable);
+        System.out.println("bellId:"+instance11.bellId);
+        System.out.println("price:"+instance11.price);
+        System.out.println("type:"+instance11.type);
+        System.out.println("maxVolume:"+instance11.maxVolume);
+        System.out.println("hasHandle:"+instance11.hasHandle);
+        System.out.println("color:"+instance11.color);
+        System.out.println("..........................");
+
+        Bell instance12=new Bell("Champion",9.0,"Steel",false,12,69.99,"Desk Bell",80,true,"Blue");
+        System.out.println("brand:"+instance12.brand);
+        System.out.println("weight:"+instance12.weight);
+        System.out.println("material:"+instance12.material);
+        System.out.println("isAdjustable:"+instance12.isAdjustable);
+        System.out.println("bellId:"+instance12.bellId);
+        System.out.println("price:"+instance12.price);
+        System.out.println("type:"+instance12.type);
+        System.out.println("maxVolume:"+instance12.maxVolume);
+        System.out.println("hasHandle:"+instance12.hasHandle);
+        System.out.println("color:"+instance12.color);
+        System.out.println("..........................");
+
+        Bell instance13=new Bell("Everest",12.0,"Brass",true,13,89.99,"Hand Bell",100,true,"Gold");
+        System.out.println("brand:"+instance13.brand);
+        System.out.println("weight:"+instance13.weight);
+        System.out.println("material:"+instance13.material);
+        System.out.println("isAdjustable:"+instance13.isAdjustable);
+        System.out.println("bellId:"+instance13.bellId);
+        System.out.println("price:"+instance13.price);
+        System.out.println("type:"+instance13.type);
+        System.out.println("maxVolume:"+instance13.maxVolume);
+        System.out.println("hasHandle:"+instance13.hasHandle);
+        System.out.println("color:"+instance13.color);
+        System.out.println("..........................");
+
+        Bell instance14=new Bell("Harmony",14.0,"Bronze",false,14,99.99,"Temple Bell",110,false,"Copper");
+        System.out.println("brand:"+instance14.brand);
+        System.out.println("weight:"+instance14.weight);
+        System.out.println("material:"+instance14.material);
+        System.out.println("isAdjustable:"+instance14.isAdjustable);
+        System.out.println("bellId:"+instance14.bellId);
+        System.out.println("price:"+instance14.price);
+        System.out.println("type:"+instance14.type);
+        System.out.println("maxVolume:"+instance14.maxVolume);
+        System.out.println("hasHandle:"+instance14.hasHandle);
+        System.out.println("color:"+instance14.color);
+        System.out.println("..........................");
+
+        Bell instance15=new Bell("Sonata",17.0,"Steel",true,15,109.99,"Hand Bell",130,true,"Green");
+        System.out.println("brand:"+instance15.brand);
+        System.out.println("weight:"+instance15.weight);
+        System.out.println("material:"+instance15.material);
+        System.out.println("isAdjustable:"+instance15.isAdjustable);
+        System.out.println("bellId:"+instance15.bellId);
+        System.out.println("price:"+instance15.price);
+        System.out.println("type:"+instance15.type);
+        System.out.println("maxVolume:"+instance15.maxVolume);
+        System.out.println("hasHandle:"+instance15.hasHandle);
+        System.out.println("color:"+instance15.color);
+        System.out.println("..........................");
+
+        Bell instance16=new Bell("Liberty",7.0,"Iron",true,16,64.99,"Hand Bell",65,true,"Red");
+        System.out.println("brand:"+instance16.brand);
+        System.out.println("weight:"+instance16.weight);
+        System.out.println("material:"+instance16.material);
+        System.out.println("isAdjustable:"+instance16.isAdjustable);
+        System.out.println("bellId:"+instance16.bellId);
+        System.out.println("price:"+instance16.price);
+        System.out.println("type:"+instance16.type);
+        System.out.println("maxVolume:"+instance16.maxVolume);
+        System.out.println("hasHandle:"+instance16.hasHandle);
+        System.out.println("color:"+instance16.color);
+        System.out.println("..........................");
+
+        Bell instance17=new Bell("Champion",10.0,"Steel",false,17,74.99,"Desk Bell",85,true,"Silver");
+        System.out.println("brand:"+instance17.brand);
+        System.out.println("weight:"+instance17.weight);
+        System.out.println("material:"+instance17.material);
+        System.out.println("isAdjustable:"+instance17.isAdjustable);
+        System.out.println("bellId:"+instance17.bellId);
+        System.out.println("price:"+instance17.price);
+        System.out.println("type:"+instance17.type);
+        System.out.println("maxVolume:"+instance17.maxVolume);
+        System.out.println("hasHandle:"+instance17.hasHandle);
+        System.out.println("color:"+instance17.color);
+        System.out.println("..........................");
+
+        Bell instance18=new Bell("Everest",13.0,"Brass",true,18,94.99,"Hand Bell",105,true,"Blue");
+        System.out.println("brand:"+instance18.brand);
+        System.out.println("weight:"+instance18.weight);
+        System.out.println("material:"+instance18.material);
+        System.out.println("isAdjustable:"+instance18.isAdjustable);
+        System.out.println("bellId:"+instance18.bellId);
+        System.out.println("price:"+instance18.price);
+        System.out.println("type:"+instance18.type);
+        System.out.println("maxVolume:"+instance18.maxVolume);
+        System.out.println("hasHandle:"+instance18.hasHandle);
+        System.out.println("color:"+instance18.color);
+        System.out.println("..........................");
+
+        Bell instance19=new Bell("Harmony",15.0,"Bronze",false,19,104.99,"Temple Bell",115,false,"Gold");
+        System.out.println("brand:"+instance19.brand);
+        System.out.println("weight:"+instance19.weight);
+        System.out.println("material:"+instance19.material);
+        System.out.println("isAdjustable:"+instance19.isAdjustable);
+        System.out.println("bellId:"+instance19.bellId);
+        System.out.println("price:"+instance19.price);
+        System.out.println("type:"+instance19.type);
+        System.out.println("maxVolume:"+instance19.maxVolume);
+        System.out.println("hasHandle:"+instance19.hasHandle);
+        System.out.println("color:"+instance19.color);
+        System.out.println("..........................");
+
+        Bell instance20=new Bell("Sonata",18.0,"Steel",true,20,114.99,"Hand Bell",135,true,"Yellow");
+        System.out.println("brand:"+instance20.brand);
+        System.out.println("weight:"+instance20.weight);
+        System.out.println("material:"+instance20.material);
+        System.out.println("isAdjustable:"+instance20.isAdjustable);
+        System.out.println("bellId:"+instance20.bellId);
+        System.out.println("price:"+instance20.price);
+        System.out.println("type:"+instance20.type);
+        System.out.println("maxVolume:"+instance20.maxVolume);
+        System.out.println("hasHandle:"+instance20.hasHandle);
+        System.out.println("color:"+instance20.color);
+        System.out.println("..........................");
+
+    }
+}

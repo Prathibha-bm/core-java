@@ -1,0 +1,265 @@
+class AsianPaintRunner{
+    public static void main(String[] args) {
+
+        AsianPaint instance1 = new AsianPaint("Asian Paints", 1.0, "Emulsion", true, 1, 499.99, "White", 120, true, "Matte");
+        System.out.println("brand:" + instance1.brand);
+        System.out.println("volume:" + instance1.volume);
+        System.out.println("type:" + instance1.type);
+        System.out.println("isGlossy:" + instance1.isGlossy);
+        System.out.println("paintId:" + instance1.paintId);
+        System.out.println("price:" + instance1.price);
+        System.out.println("color:" + instance1.color);
+        System.out.println("coverage:" + instance1.coverage);
+        System.out.println("isWaterProof:" + instance1.isWaterProof);
+        System.out.println("finish:" + instance1.finish);
+        System.out.println("..........................");
+
+        AsianPaint instance2 = new AsianPaint("Asian Paints", 1.5, "Enamel", false, 2, 599.99, "Red", 140, true, "Glossy");
+        System.out.println("brand:" + instance2.brand);
+        System.out.println("volume:" + instance2.volume);
+        System.out.println("type:" + instance2.type);
+        System.out.println("isGlossy:" + instance2.isGlossy);
+        System.out.println("paintId:" + instance2.paintId);
+        System.out.println("price:" + instance2.price);
+        System.out.println("color:" + instance2.color);
+        System.out.println("coverage:" + instance2.coverage);
+        System.out.println("isWaterProof:" + instance2.isWaterProof);
+        System.out.println("finish:" + instance2.finish);
+        System.out.println("..........................");
+
+        AsianPaint instance3 = new AsianPaint("Berger", 2.0, "Emulsion", true, 3, 699.99, "Blue", 150, true, "Matte");
+        System.out.println("brand:" + instance3.brand);
+        System.out.println("volume:" + instance3.volume);
+        System.out.println("type:" + instance3.type);
+        System.out.println("isGlossy:" + instance3.isGlossy);
+        System.out.println("paintId:" + instance3.paintId);
+        System.out.println("price:" + instance3.price);
+        System.out.println("color:" + instance3.color);
+        System.out.println("coverage:" + instance3.coverage);
+        System.out.println("isWaterProof:" + instance3.isWaterProof);
+        System.out.println("finish:" + instance3.finish);
+        System.out.println("..........................");
+
+        AsianPaint instance4 = new AsianPaint("Berger", 2.5, "Enamel", false, 4, 799.99, "Green", 160, false, "Glossy");
+        System.out.println("brand:" + instance4.brand);
+        System.out.println("volume:" + instance4.volume);
+        System.out.println("type:" + instance4.type);
+        System.out.println("isGlossy:" + instance4.isGlossy);
+        System.out.println("paintId:" + instance4.paintId);
+        System.out.println("price:" + instance4.price);
+        System.out.println("color:" + instance4.color);
+        System.out.println("coverage:" + instance4.coverage);
+        System.out.println("isWaterProof:" + instance4.isWaterProof);
+        System.out.println("finish:" + instance4.finish);
+        System.out.println("..........................");
+
+        AsianPaint instance5 = new AsianPaint("Dulux", 3.0, "Emulsion", true, 5, 899.99, "Yellow", 180, true, "Matte");
+        System.out.println("brand:" + instance5.brand);
+        System.out.println("volume:" + instance5.volume);
+        System.out.println("type:" + instance5.type);
+        System.out.println("isGlossy:" + instance5.isGlossy);
+        System.out.println("paintId:" + instance5.paintId);
+        System.out.println("price:" + instance5.price);
+        System.out.println("color:" + instance5.color);
+        System.out.println("coverage:" + instance5.coverage);
+        System.out.println("isWaterProof:" + instance5.isWaterProof);
+        System.out.println("finish:" + instance5.finish);
+        System.out.println("..........................");
+
+        AsianPaint instance6 = new AsianPaint("Dulux", 3.5, "Enamel", false, 6, 999.99, "White", 200, true, "Glossy");
+        System.out.println("brand:" + instance6.brand);
+        System.out.println("volume:" + instance6.volume);
+        System.out.println("type:" + instance6.type);
+        System.out.println("isGlossy:" + instance6.isGlossy);
+        System.out.println("paintId:" + instance6.paintId);
+        System.out.println("price:" + instance6.price);
+        System.out.println("color:" + instance6.color);
+        System.out.println("coverage:" + instance6.coverage);
+        System.out.println("isWaterProof:" + instance6.isWaterProof);
+        System.out.println("finish:" + instance6.finish);
+        System.out.println("..........................");
+
+        AsianPaint instance7 = new AsianPaint("Asian Paints", 1.2, "Emulsion", true, 7, 549.99, "Red", 130, true, "Matte");
+        System.out.println("brand:" + instance7.brand);
+        System.out.println("volume:" + instance7.volume);
+        System.out.println("type:" + instance7.type);
+        System.out.println("isGlossy:" + instance7.isGlossy);
+        System.out.println("paintId:" + instance7.paintId);
+        System.out.println("price:" + instance7.price);
+        System.out.println("color:" + instance7.color);
+        System.out.println("coverage:" + instance7.coverage);
+        System.out.println("isWaterProof:" + instance7.isWaterProof);
+        System.out.println("finish:" + instance7.finish);
+        System.out.println("..........................");
+
+        AsianPaint instance8 = new AsianPaint("Asian Paints", 1.8, "Enamel", false, 8, 649.99, "Blue", 145, false, "Glossy");
+        System.out.println("brand:" + instance8.brand);
+        System.out.println("volume:" + instance8.volume);
+        System.out.println("type:" + instance8.type);
+        System.out.println("isGlossy:" + instance8.isGlossy);
+        System.out.println("paintId:" + instance8.paintId);
+        System.out.println("price:" + instance8.price);
+        System.out.println("color:" + instance8.color);
+        System.out.println("coverage:" + instance8.coverage);
+        System.out.println("isWaterProof:" + instance8.isWaterProof);
+        System.out.println("finish:" + instance8.finish);
+        System.out.println("..........................");
+
+        AsianPaint instance9 = new AsianPaint("Berger", 2.2, "Emulsion", true, 9, 749.99, "Green", 155, true, "Matte");
+        System.out.println("brand:" + instance9.brand);
+        System.out.println("volume:" + instance9.volume);
+        System.out.println("type:" + instance9.type);
+        System.out.println("isGlossy:" + instance9.isGlossy);
+        System.out.println("paintId:" + instance9.paintId);
+        System.out.println("price:" + instance9.price);
+        System.out.println("color:" + instance9.color);
+        System.out.println("coverage:" + instance9.coverage);
+        System.out.println("isWaterProof:" + instance9.isWaterProof);
+        System.out.println("finish:" + instance9.finish);
+        System.out.println("..........................");
+
+        AsianPaint instance10 = new AsianPaint("Berger", 2.8, "Enamel", false, 10, 849.99, "Yellow", 165, true, "Glossy");
+        System.out.println("brand:" + instance10.brand);
+        System.out.println("volume:" + instance10.volume);
+        System.out.println("type:" + instance10.type);
+        System.out.println("isGlossy:" + instance10.isGlossy);
+        System.out.println("paintId:" + instance10.paintId);
+        System.out.println("price:" + instance10.price);
+        System.out.println("color:" + instance10.color);
+        System.out.println("coverage:" + instance10.coverage);
+        System.out.println("isWaterProof:" + instance10.isWaterProof);
+        System.out.println("finish:" + instance10.finish);
+        System.out.println("..........................");
+
+        AsianPaint instance11 = new AsianPaint("Dulux", 3.2, "Emulsion", true, 11, 949.99, "Pink", 190, true, "Matte");
+        System.out.println("brand:" + instance11.brand);
+        System.out.println("volume:" + instance11.volume);
+        System.out.println("type:" + instance11.type);
+        System.out.println("isGlossy:" + instance11.isGlossy);
+        System.out.println("paintId:" + instance11.paintId);
+        System.out.println("price:" + instance11.price);
+        System.out.println("color:" + instance11.color);
+        System.out.println("coverage:" + instance11.coverage);
+        System.out.println("isWaterProof:" + instance11.isWaterProof);
+        System.out.println("finish:" + instance11.finish);
+        System.out.println("..........................");
+
+        AsianPaint instance12 = new AsianPaint("Dulux", 3.5, "Enamel", false, 12, 1049.99, "White", 200, false, "Glossy");
+        System.out.println("brand:" + instance12.brand);
+        System.out.println("volume:" + instance12.volume);
+        System.out.println("type:" + instance12.type);
+        System.out.println("isGlossy:" + instance12.isGlossy);
+        System.out.println("paintId:" + instance12.paintId);
+        System.out.println("price:" + instance12.price);
+        System.out.println("color:" + instance12.color);
+        System.out.println("coverage:" + instance12.coverage);
+        System.out.println("isWaterProof:" + instance12.isWaterProof);
+        System.out.println("finish:" + instance12.finish);
+        System.out.println("..........................");
+
+        AsianPaint instance13 = new AsianPaint("Asian Paints", 1.5, "Emulsion", true, 13, 599.99, "Orange", 140, true, "Matte");
+        System.out.println("brand:" + instance13.brand);
+        System.out.println("volume:" + instance13.volume);
+        System.out.println("type:" + instance13.type);
+        System.out.println("isGlossy:" + instance13.isGlossy);
+        System.out.println("paintId:" + instance13.paintId);
+        System.out.println("price:" + instance13.price);
+        System.out.println("color:" + instance13.color);
+        System.out.println("coverage:" + instance13.coverage);
+        System.out.println("isWaterProof:" + instance13.isWaterProof);
+        System.out.println("finish:" + instance13.finish);
+        System.out.println("..........................");
+
+        AsianPaint instance14 = new AsianPaint("Berger", 2.0, "Enamel", false, 14, 699.99, "Violet", 150, false, "Glossy");
+        System.out.println("brand:" + instance14.brand);
+        System.out.println("volume:" + instance14.volume);
+        System.out.println("type:" + instance14.type);
+        System.out.println("isGlossy:" + instance14.isGlossy);
+        System.out.println("paintId:" + instance14.paintId);
+        System.out.println("price:" + instance14.price);
+        System.out.println("color:" + instance14.color);
+        System.out.println("coverage:" + instance14.coverage);
+        System.out.println("isWaterProof:" + instance14.isWaterProof);
+        System.out.println("finish:" + instance14.finish);
+        System.out.println("..........................");
+
+        AsianPaint instance15 = new AsianPaint("Dulux", 3.0, "Emulsion", true, 15, 899.99, "Brown", 180, true, "Matte");
+        System.out.println("brand:" + instance15.brand);
+        System.out.println("volume:" + instance15.volume);
+        System.out.println("type:" + instance15.type);
+        System.out.println("isGlossy:" + instance15.isGlossy);
+        System.out.println("paintId:" + instance15.paintId);
+        System.out.println("price:" + instance15.price);
+        System.out.println("color:" + instance15.color);
+        System.out.println("coverage:" + instance15.coverage);
+        System.out.println("isWaterProof:" + instance15.isWaterProof);
+        System.out.println("finish:" + instance15.finish);
+        System.out.println("..........................");
+
+        AsianPaint instance16 = new AsianPaint("Asian Paints", 1.8, "Enamel", false, 16, 649.99, "Cyan", 145, true, "Glossy");
+        System.out.println("brand:" + instance16.brand);
+        System.out.println("volume:" + instance16.volume);
+        System.out.println("type:" + instance16.type);
+        System.out.println("isGlossy:" + instance16.isGlossy);
+        System.out.println("paintId:" + instance16.paintId);
+        System.out.println("price:" + instance16.price);
+        System.out.println("color:" + instance16.color);
+        System.out.println("coverage:" + instance16.coverage);
+        System.out.println("isWaterProof:" + instance16.isWaterProof);
+        System.out.println("finish:" + instance16.finish);
+        System.out.println("..........................");
+
+        AsianPaint instance17 = new AsianPaint("Berger", 2.5, "Emulsion", true, 17, 799.99, "Magenta", 160, true, "Matte");
+        System.out.println("brand:" + instance17.brand);
+        System.out.println("volume:" + instance17.volume);
+        System.out.println("type:" + instance17.type);
+        System.out.println("isGlossy:" + instance17.isGlossy);
+        System.out.println("paintId:" + instance17.paintId);
+        System.out.println("price:" + instance17.price);
+        System.out.println("color:" + instance17.color);
+        System.out.println("coverage:" + instance17.coverage);
+        System.out.println("isWaterProof:" + instance17.isWaterProof);
+        System.out.println("finish:" + instance17.finish);
+        System.out.println("..........................");
+
+        AsianPaint instance18 = new AsianPaint("Dulux", 3.2, "Enamel", false, 18, 949.99, "Silver", 190, false, "Glossy");
+        System.out.println("brand:" + instance18.brand);
+        System.out.println("volume:" + instance18.volume);
+        System.out.println("type:" + instance18.type);
+        System.out.println("isGlossy:" + instance18.isGlossy);
+        System.out.println("paintId:" + instance18.paintId);
+        System.out.println("price:" + instance18.price);
+        System.out.println("color:" + instance18.color);
+        System.out.println("coverage:" + instance18.coverage);
+        System.out.println("isWaterProof:" + instance18.isWaterProof);
+        System.out.println("finish:" + instance18.finish);
+        System.out.println("..........................");
+
+        AsianPaint instance19 = new AsianPaint("Asian Paints", 2.0, "Emulsion", true, 19, 699.99, "Gold", 150, true, "Matte");
+        System.out.println("brand:" + instance19.brand);
+        System.out.println("volume:" + instance19.volume);
+        System.out.println("type:" + instance19.type);
+        System.out.println("isGlossy:" + instance19.isGlossy);
+        System.out.println("paintId:" + instance19.paintId);
+        System.out.println("price:" + instance19.price);
+        System.out.println("color:" + instance19.color);
+        System.out.println("coverage:" + instance19.coverage);
+        System.out.println("isWaterProof:" + instance19.isWaterProof);
+        System.out.println("finish:" + instance19.finish);
+        System.out.println("..........................");
+
+        AsianPaint instance20 = new AsianPaint("Berger", 2.5, "Enamel", false, 20, 799.99, "Bronze", 160, true, "Glossy");
+        System.out.println("brand:" + instance20.brand);
+        System.out.println("volume:" + instance20.volume);
+        System.out.println("type:" + instance20.type);
+        System.out.println("isGlossy:" + instance20.isGlossy);
+        System.out.println("paintId:" + instance20.paintId);
+        System.out.println("price:" + instance20.price);
+        System.out.println("color:" + instance20.color);
+        System.out.println("coverage:" + instance20.coverage);
+        System.out.println("isWaterProof:" + instance20.isWaterProof);
+        System.out.println("finish:" + instance20.finish);
+        System.out.println("..........................");
+
+    }
+}

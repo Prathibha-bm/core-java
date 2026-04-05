@@ -1,0 +1,265 @@
+class BarbellRunner{
+    public static void main(String[] args){
+
+        Barbell instance1=new Barbell("Rogue",20.0,"Steel",true,1,149.99,"Olympic",500,true,"Black");
+        System.out.println("brand:"+instance1.brand);
+        System.out.println("weight:"+instance1.weight);
+        System.out.println("material:"+instance1.material);
+        System.out.println("isAdjustable:"+instance1.isAdjustable);
+        System.out.println("barbellId:"+instance1.barbellId);
+        System.out.println("price:"+instance1.price);
+        System.out.println("type:"+instance1.type);
+        System.out.println("maxLoad:"+instance1.maxLoad);
+        System.out.println("hasKnurling:"+instance1.hasKnurling);
+        System.out.println("color:"+instance1.color);
+        System.out.println("..........................");
+
+        Barbell instance2=new Barbell("CAP Barbell",25.0,"Steel",false,2,129.99,"Standard",400,true,"Chrome");
+        System.out.println("brand:"+instance2.brand);
+        System.out.println("weight:"+instance2.weight);
+        System.out.println("material:"+instance2.material);
+        System.out.println("isAdjustable:"+instance2.isAdjustable);
+        System.out.println("barbellId:"+instance2.barbellId);
+        System.out.println("price:"+instance2.price);
+        System.out.println("type:"+instance2.type);
+        System.out.println("maxLoad:"+instance2.maxLoad);
+        System.out.println("hasKnurling:"+instance2.hasKnurling);
+        System.out.println("color:"+instance2.color);
+        System.out.println("..........................");
+
+        Barbell instance3=new Barbell("Body-Solid",30.0,"Steel",true,3,159.99,"Olympic",600,true,"Silver");
+        System.out.println("brand:"+instance3.brand);
+        System.out.println("weight:"+instance3.weight);
+        System.out.println("material:"+instance3.material);
+        System.out.println("isAdjustable:"+instance3.isAdjustable);
+        System.out.println("barbellId:"+instance3.barbellId);
+        System.out.println("price:"+instance3.price);
+        System.out.println("type:"+instance3.type);
+        System.out.println("maxLoad:"+instance3.maxLoad);
+        System.out.println("hasKnurling:"+instance3.hasKnurling);
+        System.out.println("color:"+instance3.color);
+        System.out.println("..........................");
+
+        Barbell instance4=new Barbell("Titan Fitness",35.0,"Iron",false,4,119.99,"Standard",350,false,"Black");
+        System.out.println("brand:"+instance4.brand);
+        System.out.println("weight:"+instance4.weight);
+        System.out.println("material:"+instance4.material);
+        System.out.println("isAdjustable:"+instance4.isAdjustable);
+        System.out.println("barbellId:"+instance4.barbellId);
+        System.out.println("price:"+instance4.price);
+        System.out.println("type:"+instance4.type);
+        System.out.println("maxLoad:"+instance4.maxLoad);
+        System.out.println("hasKnurling:"+instance4.hasKnurling);
+        System.out.println("color:"+instance4.color);
+        System.out.println("..........................");
+
+        Barbell instance5=new Barbell("Power Systems",40.0,"Steel",true,5,169.99,"Olympic",550,true,"Gray");
+        System.out.println("brand:"+instance5.brand);
+        System.out.println("weight:"+instance5.weight);
+        System.out.println("material:"+instance5.material);
+        System.out.println("isAdjustable:"+instance5.isAdjustable);
+        System.out.println("barbellId:"+instance5.barbellId);
+        System.out.println("price:"+instance5.price);
+        System.out.println("type:"+instance5.type);
+        System.out.println("maxLoad:"+instance5.maxLoad);
+        System.out.println("hasKnurling:"+instance5.hasKnurling);
+        System.out.println("color:"+instance5.color);
+        System.out.println("..........................");
+
+        Barbell instance6=new Barbell("Rogue",22.5,"Steel",true,6,159.99,"Olympic",500,true,"Black");
+        System.out.println("brand:"+instance6.brand);
+        System.out.println("weight:"+instance6.weight);
+        System.out.println("material:"+instance6.material);
+        System.out.println("isAdjustable:"+instance6.isAdjustable);
+        System.out.println("barbellId:"+instance6.barbellId);
+        System.out.println("price:"+instance6.price);
+        System.out.println("type:"+instance6.type);
+        System.out.println("maxLoad:"+instance6.maxLoad);
+        System.out.println("hasKnurling:"+instance6.hasKnurling);
+        System.out.println("color:"+instance6.color);
+        System.out.println("..........................");
+
+        Barbell instance7=new Barbell("CAP Barbell",27.5,"Steel",false,7,139.99,"Standard",400,true,"Silver");
+        System.out.println("brand:"+instance7.brand);
+        System.out.println("weight:"+instance7.weight);
+        System.out.println("material:"+instance7.material);
+        System.out.println("isAdjustable:"+instance7.isAdjustable);
+        System.out.println("barbellId:"+instance7.barbellId);
+        System.out.println("price:"+instance7.price);
+        System.out.println("type:"+instance7.type);
+        System.out.println("maxLoad:"+instance7.maxLoad);
+        System.out.println("hasKnurling:"+instance7.hasKnurling);
+        System.out.println("color:"+instance7.color);
+        System.out.println("..........................");
+
+        Barbell instance8=new Barbell("Body-Solid",32.0,"Steel",true,8,169.99,"Olympic",600,true,"Black");
+        System.out.println("brand:"+instance8.brand);
+        System.out.println("weight:"+instance8.weight);
+        System.out.println("material:"+instance8.material);
+        System.out.println("isAdjustable:"+instance8.isAdjustable);
+        System.out.println("barbellId:"+instance8.barbellId);
+        System.out.println("price:"+instance8.price);
+        System.out.println("type:"+instance8.type);
+        System.out.println("maxLoad:"+instance8.maxLoad);
+        System.out.println("hasKnurling:"+instance8.hasKnurling);
+        System.out.println("color:"+instance8.color);
+        System.out.println("..........................");
+
+        Barbell instance9=new Barbell("Titan Fitness",37.5,"Iron",false,9,129.99,"Standard",350,false,"Gray");
+        System.out.println("brand:"+instance9.brand);
+        System.out.println("weight:"+instance9.weight);
+        System.out.println("material:"+instance9.material);
+        System.out.println("isAdjustable:"+instance9.isAdjustable);
+        System.out.println("barbellId:"+instance9.barbellId);
+        System.out.println("price:"+instance9.price);
+        System.out.println("type:"+instance9.type);
+        System.out.println("maxLoad:"+instance9.maxLoad);
+        System.out.println("hasKnurling:"+instance9.hasKnurling);
+        System.out.println("color:"+instance9.color);
+        System.out.println("..........................");
+
+        Barbell instance10=new Barbell("Power Systems",42.0,"Steel",true,10,179.99,"Olympic",550,true,"Silver");
+        System.out.println("brand:"+instance10.brand);
+        System.out.println("weight:"+instance10.weight);
+        System.out.println("material:"+instance10.material);
+        System.out.println("isAdjustable:"+instance10.isAdjustable);
+        System.out.println("barbellId:"+instance10.barbellId);
+        System.out.println("price:"+instance10.price);
+        System.out.println("type:"+instance10.type);
+        System.out.println("maxLoad:"+instance10.maxLoad);
+        System.out.println("hasKnurling:"+instance10.hasKnurling);
+        System.out.println("color:"+instance10.color);
+        System.out.println("..........................");
+
+        Barbell instance11=new Barbell("Rogue",21.0,"Steel",true,11,154.99,"Olympic",500,true,"Black");
+        System.out.println("brand:"+instance11.brand);
+        System.out.println("weight:"+instance11.weight);
+        System.out.println("material:"+instance11.material);
+        System.out.println("isAdjustable:"+instance11.isAdjustable);
+        System.out.println("barbellId:"+instance11.barbellId);
+        System.out.println("price:"+instance11.price);
+        System.out.println("type:"+instance11.type);
+        System.out.println("maxLoad:"+instance11.maxLoad);
+        System.out.println("hasKnurling:"+instance11.hasKnurling);
+        System.out.println("color:"+instance11.color);
+        System.out.println("..........................");
+
+        Barbell instance12=new Barbell("CAP Barbell",26.0,"Steel",false,12,134.99,"Standard",400,true,"Chrome");
+        System.out.println("brand:"+instance12.brand);
+        System.out.println("weight:"+instance12.weight);
+        System.out.println("material:"+instance12.material);
+        System.out.println("isAdjustable:"+instance12.isAdjustable);
+        System.out.println("barbellId:"+instance12.barbellId);
+        System.out.println("price:"+instance12.price);
+        System.out.println("type:"+instance12.type);
+        System.out.println("maxLoad:"+instance12.maxLoad);
+        System.out.println("hasKnurling:"+instance12.hasKnurling);
+        System.out.println("color:"+instance12.color);
+        System.out.println("..........................");
+
+        Barbell instance13=new Barbell("Body-Solid",33.0,"Steel",true,13,174.99,"Olympic",600,true,"Gray");
+        System.out.println("brand:"+instance13.brand);
+        System.out.println("weight:"+instance13.weight);
+        System.out.println("material:"+instance13.material);
+        System.out.println("isAdjustable:"+instance13.isAdjustable);
+        System.out.println("barbellId:"+instance13.barbellId);
+        System.out.println("price:"+instance13.price);
+        System.out.println("type:"+instance13.type);
+        System.out.println("maxLoad:"+instance13.maxLoad);
+        System.out.println("hasKnurling:"+instance13.hasKnurling);
+        System.out.println("color:"+instance13.color);
+        System.out.println("..........................");
+
+        Barbell instance14=new Barbell("Titan Fitness",38.0,"Iron",false,14,139.99,"Standard",350,false,"Black");
+        System.out.println("brand:"+instance14.brand);
+        System.out.println("weight:"+instance14.weight);
+        System.out.println("material:"+instance14.material);
+        System.out.println("isAdjustable:"+instance14.isAdjustable);
+        System.out.println("barbellId:"+instance14.barbellId);
+        System.out.println("price:"+instance14.price);
+        System.out.println("type:"+instance14.type);
+        System.out.println("maxLoad:"+instance14.maxLoad);
+        System.out.println("hasKnurling:"+instance14.hasKnurling);
+        System.out.println("color:"+instance14.color);
+        System.out.println("..........................");
+
+        Barbell instance15=new Barbell("Power Systems",43.0,"Steel",true,15,184.99,"Olympic",550,true,"Black");
+        System.out.println("brand:"+instance15.brand);
+        System.out.println("weight:"+instance15.weight);
+        System.out.println("material:"+instance15.material);
+        System.out.println("isAdjustable:"+instance15.isAdjustable);
+        System.out.println("barbellId:"+instance15.barbellId);
+        System.out.println("price:"+instance15.price);
+        System.out.println("type:"+instance15.type);
+        System.out.println("maxLoad:"+instance15.maxLoad);
+        System.out.println("hasKnurling:"+instance15.hasKnurling);
+        System.out.println("color:"+instance15.color);
+        System.out.println("..........................");
+
+        Barbell instance16=new Barbell("Rogue",23.0,"Steel",true,16,159.99,"Olympic",500,true,"Gray");
+        System.out.println("brand:"+instance16.brand);
+        System.out.println("weight:"+instance16.weight);
+        System.out.println("material:"+instance16.material);
+        System.out.println("isAdjustable:"+instance16.isAdjustable);
+        System.out.println("barbellId:"+instance16.barbellId);
+        System.out.println("price:"+instance16.price);
+        System.out.println("type:"+instance16.type);
+        System.out.println("maxLoad:"+instance16.maxLoad);
+        System.out.println("hasKnurling:"+instance16.hasKnurling);
+        System.out.println("color:"+instance16.color);
+        System.out.println("..........................");
+
+        Barbell instance17=new Barbell("CAP Barbell",28.0,"Steel",false,17,144.99,"Standard",400,true,"Silver");
+        System.out.println("brand:"+instance17.brand);
+        System.out.println("weight:"+instance17.weight);
+        System.out.println("material:"+instance17.material);
+        System.out.println("isAdjustable:"+instance17.isAdjustable);
+        System.out.println("barbellId:"+instance17.barbellId);
+        System.out.println("price:"+instance17.price);
+        System.out.println("type:"+instance17.type);
+        System.out.println("maxLoad:"+instance17.maxLoad);
+        System.out.println("hasKnurling:"+instance17.hasKnurling);
+        System.out.println("color:"+instance17.color);
+        System.out.println("..........................");
+
+        Barbell instance18=new Barbell("Body-Solid",34.0,"Steel",true,18,179.99,"Olympic",600,true,"Black");
+        System.out.println("brand:"+instance18.brand);
+        System.out.println("weight:"+instance18.weight);
+        System.out.println("material:"+instance18.material);
+        System.out.println("isAdjustable:"+instance18.isAdjustable);
+        System.out.println("barbellId:"+instance18.barbellId);
+        System.out.println("price:"+instance18.price);
+        System.out.println("type:"+instance18.type);
+        System.out.println("maxLoad:"+instance18.maxLoad);
+        System.out.println("hasKnurling:"+instance18.hasKnurling);
+        System.out.println("color:"+instance18.color);
+        System.out.println("..........................");
+
+        Barbell instance19=new Barbell("Titan Fitness",39.0,"Iron",false,19,149.99,"Standard",350,false,"Gray");
+        System.out.println("brand:"+instance19.brand);
+        System.out.println("weight:"+instance19.weight);
+        System.out.println("material:"+instance19.material);
+        System.out.println("isAdjustable:"+instance19.isAdjustable);
+        System.out.println("barbellId:"+instance19.barbellId);
+        System.out.println("price:"+instance19.price);
+        System.out.println("type:"+instance19.type);
+        System.out.println("maxLoad:"+instance19.maxLoad);
+        System.out.println("hasKnurling:"+instance19.hasKnurling);
+        System.out.println("color:"+instance19.color);
+        System.out.println("..........................");
+
+        Barbell instance20=new Barbell("Power Systems",44.0,"Steel",true,20,189.99,"Olympic",550,true,"Silver");
+        System.out.println("brand:"+instance20.brand);
+        System.out.println("weight:"+instance20.weight);
+        System.out.println("material:"+instance20.material);
+        System.out.println("isAdjustable:"+instance20.isAdjustable);
+        System.out.println("barbellId:"+instance20.barbellId);
+        System.out.println("price:"+instance20.price);
+        System.out.println("type:"+instance20.type);
+        System.out.println("maxLoad:"+instance20.maxLoad);
+        System.out.println("hasKnurling:"+instance20.hasKnurling);
+        System.out.println("color:"+instance20.color);
+        System.out.println("..........................");
+
+    }
+}

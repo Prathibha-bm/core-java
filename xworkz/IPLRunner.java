@@ -1,0 +1,265 @@
+class IPLRunner{
+    public static void main(String[] args) {
+
+        IPL instance1 = new IPL("Mumbai Indians", "Rohit Sharma", "Mumbai", 2008, 1, 200, 120, 80, 60.0, "Mahela Jayawardene");
+        System.out.println("teamName:" + instance1.teamName);
+        System.out.println("captain:" + instance1.captain);
+        System.out.println("city:" + instance1.city);
+        System.out.println("foundedYear:" + instance1.foundedYear);
+        System.out.println("teamId:" + instance1.teamId);
+        System.out.println("matchesPlayed:" + instance1.matchesPlayed);
+        System.out.println("matchesWon:" + instance1.matchesWon);
+        System.out.println("matchesLost:" + instance1.matchesLost);
+        System.out.println("winPercentage:" + instance1.winPercentage);
+        System.out.println("coach:" + instance1.coach);
+        System.out.println("..........................");
+
+        IPL instance2 = new IPL("Chennai Super Kings", "MS Dhoni", "Chennai", 2008, 2, 210, 140, 70, 66.7, "Stephen Fleming");
+        System.out.println("teamName:" + instance2.teamName);
+        System.out.println("captain:" + instance2.captain);
+        System.out.println("city:" + instance2.city);
+        System.out.println("foundedYear:" + instance2.foundedYear);
+        System.out.println("teamId:" + instance2.teamId);
+        System.out.println("matchesPlayed:" + instance2.matchesPlayed);
+        System.out.println("matchesWon:" + instance2.matchesWon);
+        System.out.println("matchesLost:" + instance2.matchesLost);
+        System.out.println("winPercentage:" + instance2.winPercentage);
+        System.out.println("coach:" + instance2.coach);
+        System.out.println("..........................");
+
+        IPL instance3 = new IPL("Royal Challengers Bangalore", "Faf du Plessis", "Bangalore", 2008, 3, 205, 110, 95, 53.7, "Sanath Jayasuriya");
+        System.out.println("teamName:" + instance3.teamName);
+        System.out.println("captain:" + instance3.captain);
+        System.out.println("city:" + instance3.city);
+        System.out.println("foundedYear:" + instance3.foundedYear);
+        System.out.println("teamId:" + instance3.teamId);
+        System.out.println("matchesPlayed:" + instance3.matchesPlayed);
+        System.out.println("matchesWon:" + instance3.matchesWon);
+        System.out.println("matchesLost:" + instance3.matchesLost);
+        System.out.println("winPercentage:" + instance3.winPercentage);
+        System.out.println("coach:" + instance3.coach);
+        System.out.println("..........................");
+
+        IPL instance4 = new IPL("Kolkata Knight Riders", "Shreyas Iyer", "Kolkata", 2008, 4, 198, 115, 83, 58.1, "Brendon McCullum");
+        System.out.println("teamName:" + instance4.teamName);
+        System.out.println("captain:" + instance4.captain);
+        System.out.println("city:" + instance4.city);
+        System.out.println("foundedYear:" + instance4.foundedYear);
+        System.out.println("teamId:" + instance4.teamId);
+        System.out.println("matchesPlayed:" + instance4.matchesPlayed);
+        System.out.println("matchesWon:" + instance4.matchesWon);
+        System.out.println("matchesLost:" + instance4.matchesLost);
+        System.out.println("winPercentage:" + instance4.winPercentage);
+        System.out.println("coach:" + instance4.coach);
+        System.out.println("..........................");
+
+        IPL instance5 = new IPL("Delhi Capitals", "Rishabh Pant", "Delhi", 2008, 5, 200, 100, 100, 50.0, "Ricky Ponting");
+        System.out.println("teamName:" + instance5.teamName);
+        System.out.println("captain:" + instance5.captain);
+        System.out.println("city:" + instance5.city);
+        System.out.println("foundedYear:" + instance5.foundedYear);
+        System.out.println("teamId:" + instance5.teamId);
+        System.out.println("matchesPlayed:" + instance5.matchesPlayed);
+        System.out.println("matchesWon:" + instance5.matchesWon);
+        System.out.println("matchesLost:" + instance5.matchesLost);
+        System.out.println("winPercentage:" + instance5.winPercentage);
+        System.out.println("coach:" + instance5.coach);
+        System.out.println("..........................");
+
+        IPL instance6 = new IPL("Rajasthan Royals", "Sanju Samson", "Jaipur", 2008, 6, 180, 95, 85, 52.8, "Zubin Bharucha");
+        System.out.println("teamName:" + instance6.teamName);
+        System.out.println("captain:" + instance6.captain);
+        System.out.println("city:" + instance6.city);
+        System.out.println("foundedYear:" + instance6.foundedYear);
+        System.out.println("teamId:" + instance6.teamId);
+        System.out.println("matchesPlayed:" + instance6.matchesPlayed);
+        System.out.println("matchesWon:" + instance6.matchesWon);
+        System.out.println("matchesLost:" + instance6.matchesLost);
+        System.out.println("winPercentage:" + instance6.winPercentage);
+        System.out.println("coach:" + instance6.coach);
+        System.out.println("..........................");
+
+        IPL instance7 = new IPL("Sunrisers Hyderabad", "Aiden Markram", "Hyderabad", 2012, 7, 190, 105, 85, 55.3, "Trevor Bayliss");
+        System.out.println("teamName:" + instance7.teamName);
+        System.out.println("captain:" + instance7.captain);
+        System.out.println("city:" + instance7.city);
+        System.out.println("foundedYear:" + instance7.foundedYear);
+        System.out.println("teamId:" + instance7.teamId);
+        System.out.println("matchesPlayed:" + instance7.matchesPlayed);
+        System.out.println("matchesWon:" + instance7.matchesWon);
+        System.out.println("matchesLost:" + instance7.matchesLost);
+        System.out.println("winPercentage:" + instance7.winPercentage);
+        System.out.println("coach:" + instance7.coach);
+        System.out.println("..........................");
+
+        IPL instance8 = new IPL("Lucknow Super Giants", "KL Rahul", "Lucknow", 2022, 8, 14, 7, 7, 50.0, "Andy Flower");
+        System.out.println("teamName:" + instance8.teamName);
+        System.out.println("captain:" + instance8.captain);
+        System.out.println("city:" + instance8.city);
+        System.out.println("foundedYear:" + instance8.foundedYear);
+        System.out.println("teamId:" + instance8.teamId);
+        System.out.println("matchesPlayed:" + instance8.matchesPlayed);
+        System.out.println("matchesWon:" + instance8.matchesWon);
+        System.out.println("matchesLost:" + instance8.matchesLost);
+        System.out.println("winPercentage:" + instance8.winPercentage);
+        System.out.println("coach:" + instance8.coach);
+        System.out.println("..........................");
+
+        IPL instance9 = new IPL("Gujarat Titans", "Hardik Pandya", "Ahmedabad", 2022, 9, 14, 9, 5, 64.3, "Ashish Nehra");
+        System.out.println("teamName:" + instance9.teamName);
+        System.out.println("captain:" + instance9.captain);
+        System.out.println("city:" + instance9.city);
+        System.out.println("foundedYear:" + instance9.foundedYear);
+        System.out.println("teamId:" + instance9.teamId);
+        System.out.println("matchesPlayed:" + instance9.matchesPlayed);
+        System.out.println("matchesWon:" + instance9.matchesWon);
+        System.out.println("matchesLost:" + instance9.matchesLost);
+        System.out.println("winPercentage:" + instance9.winPercentage);
+        System.out.println("coach:" + instance9.coach);
+        System.out.println("..........................");
+
+        IPL instance10 = new IPL("Pune Warriors India", "Yuvraj Singh", "Pune", 2011, 10, 26, 12, 14, 46.2, "David Andrews");
+        System.out.println("teamName:" + instance10.teamName);
+        System.out.println("captain:" + instance10.captain);
+        System.out.println("city:" + instance10.city);
+        System.out.println("foundedYear:" + instance10.foundedYear);
+        System.out.println("teamId:" + instance10.teamId);
+        System.out.println("matchesPlayed:" + instance10.matchesPlayed);
+        System.out.println("matchesWon:" + instance10.matchesWon);
+        System.out.println("matchesLost:" + instance10.matchesLost);
+        System.out.println("winPercentage:" + instance10.winPercentage);
+        System.out.println("coach:" + instance10.coach);
+        System.out.println("..........................");
+
+        IPL instance11 = new IPL("Kochi Tuskers Kerala", "Brendon McCullum", "Kochi", 2011, 11, 14, 6, 8, 42.9, "Zubin Bharucha");
+        System.out.println("teamName:" + instance11.teamName);
+        System.out.println("captain:" + instance11.captain);
+        System.out.println("city:" + instance11.city);
+        System.out.println("foundedYear:" + instance11.foundedYear);
+        System.out.println("teamId:" + instance11.teamId);
+        System.out.println("matchesPlayed:" + instance11.matchesPlayed);
+        System.out.println("matchesWon:" + instance11.matchesWon);
+        System.out.println("matchesLost:" + instance11.matchesLost);
+        System.out.println("winPercentage:" + instance11.winPercentage);
+        System.out.println("coach:" + instance11.coach);
+        System.out.println("..........................");
+
+        IPL instance12 = new IPL("Deccan Chargers", "Adam Gilchrist", "Hyderabad", 2008, 12, 79, 33, 46, 41.8, "Venkatesh Prasad");
+        System.out.println("teamName:" + instance12.teamName);
+        System.out.println("captain:" + instance12.captain);
+        System.out.println("city:" + instance12.city);
+        System.out.println("foundedYear:" + instance12.foundedYear);
+        System.out.println("teamId:" + instance12.teamId);
+        System.out.println("matchesPlayed:" + instance12.matchesPlayed);
+        System.out.println("matchesWon:" + instance12.matchesWon);
+        System.out.println("matchesLost:" + instance12.matchesLost);
+        System.out.println("winPercentage:" + instance12.winPercentage);
+        System.out.println("coach:" + instance12.coach);
+        System.out.println("..........................");
+
+        IPL instance13 = new IPL("Rising Pune Supergiants", "MS Dhoni", "Pune", 2016, 13, 14, 7, 7, 50.0, "Stephen Fleming");
+        System.out.println("teamName:" + instance13.teamName);
+        System.out.println("captain:" + instance13.captain);
+        System.out.println("city:" + instance13.city);
+        System.out.println("foundedYear:" + instance13.foundedYear);
+        System.out.println("teamId:" + instance13.teamId);
+        System.out.println("matchesPlayed:" + instance13.matchesPlayed);
+        System.out.println("matchesWon:" + instance13.matchesWon);
+        System.out.println("matchesLost:" + instance13.matchesLost);
+        System.out.println("winPercentage:" + instance13.winPercentage);
+        System.out.println("coach:" + instance13.coach);
+        System.out.println("..........................");
+
+        IPL instance14 = new IPL("Delhi Daredevils", "Shreyas Iyer", "Delhi", 2008, 14, 200, 95, 105, 47.5, "Ricky Ponting");
+        System.out.println("teamName:" + instance14.teamName);
+        System.out.println("captain:" + instance14.captain);
+        System.out.println("city:" + instance14.city);
+        System.out.println("foundedYear:" + instance14.foundedYear);
+        System.out.println("teamId:" + instance14.teamId);
+        System.out.println("matchesPlayed:" + instance14.matchesPlayed);
+        System.out.println("matchesWon:" + instance14.matchesWon);
+        System.out.println("matchesLost:" + instance14.matchesLost);
+        System.out.println("winPercentage:" + instance14.winPercentage);
+        System.out.println("coach:" + instance14.coach);
+        System.out.println("..........................");
+
+        IPL instance15 = new IPL("Kolkata Knight Riders (Old)", "Gautam Gambhir", "Kolkata", 2008, 15, 198, 110, 88, 55.6, "John Buchanan");
+        System.out.println("teamName:" + instance15.teamName);
+        System.out.println("captain:" + instance15.captain);
+        System.out.println("city:" + instance15.city);
+        System.out.println("foundedYear:" + instance15.foundedYear);
+        System.out.println("teamId:" + instance15.teamId);
+        System.out.println("matchesPlayed:" + instance15.matchesPlayed);
+        System.out.println("matchesWon:" + instance15.matchesWon);
+        System.out.println("matchesLost:" + instance15.matchesLost);
+        System.out.println("winPercentage:" + instance15.winPercentage);
+        System.out.println("coach:" + instance15.coach);
+        System.out.println("..........................");
+
+        IPL instance16 = new IPL("Mumbai Indians (Old)", "Sachin Tendulkar", "Mumbai", 2008, 16, 200, 120, 80, 60.0, "Mahela Jayawardene");
+        System.out.println("teamName:" + instance16.teamName);
+        System.out.println("captain:" + instance16.captain);
+        System.out.println("city:" + instance16.city);
+        System.out.println("foundedYear:" + instance16.foundedYear);
+        System.out.println("teamId:" + instance16.teamId);
+        System.out.println("matchesPlayed:" + instance16.matchesPlayed);
+        System.out.println("matchesWon:" + instance16.matchesWon);
+        System.out.println("matchesLost:" + instance16.matchesLost);
+        System.out.println("winPercentage:" + instance16.winPercentage);
+        System.out.println("coach:" + instance16.coach);
+        System.out.println("..........................");
+
+        IPL instance17 = new IPL("Chennai Super Kings (Old)", "MS Dhoni", "Chennai", 2008, 17, 210, 140, 70, 66.7, "Stephen Fleming");
+        System.out.println("teamName:" + instance17.teamName);
+        System.out.println("captain:" + instance17.captain);
+        System.out.println("city:" + instance17.city);
+        System.out.println("foundedYear:" + instance17.foundedYear);
+        System.out.println("teamId:" + instance17.teamId);
+        System.out.println("matchesPlayed:" + instance17.matchesPlayed);
+        System.out.println("matchesWon:" + instance17.matchesWon);
+        System.out.println("matchesLost:" + instance17.matchesLost);
+        System.out.println("winPercentage:" + instance17.winPercentage);
+        System.out.println("coach:" + instance17.coach);
+        System.out.println("..........................");
+
+        IPL instance18 = new IPL("Royal Challengers Bangalore (Old)", "Virat Kohli", "Bangalore", 2008, 18, 205, 115, 90, 56.1, "Sanath Jayasuriya");
+        System.out.println("teamName:" + instance18.teamName);
+        System.out.println("captain:" + instance18.captain);
+        System.out.println("city:" + instance18.city);
+        System.out.println("foundedYear:" + instance18.foundedYear);
+        System.out.println("teamId:" + instance18.teamId);
+        System.out.println("matchesPlayed:" + instance18.matchesPlayed);
+        System.out.println("matchesWon:" + instance18.matchesWon);
+        System.out.println("matchesLost:" + instance18.matchesLost);
+        System.out.println("winPercentage:" + instance18.winPercentage);
+        System.out.println("coach:" + instance18.coach);
+        System.out.println("..........................");
+
+        IPL instance19 = new IPL("Sunrisers Hyderabad (Old)", "David Warner", "Hyderabad", 2012, 19, 190, 105, 85, 55.3, "Trevor Bayliss");
+        System.out.println("teamName:" + instance19.teamName);
+        System.out.println("captain:" + instance19.captain);
+        System.out.println("city:" + instance19.city);
+        System.out.println("foundedYear:" + instance19.foundedYear);
+        System.out.println("teamId:" + instance19.teamId);
+        System.out.println("matchesPlayed:" + instance19.matchesPlayed);
+        System.out.println("matchesWon:" + instance19.matchesWon);
+        System.out.println("matchesLost:" + instance19.matchesLost);
+        System.out.println("winPercentage:" + instance19.winPercentage);
+        System.out.println("coach:" + instance19.coach);
+        System.out.println("..........................");
+
+        IPL instance20 = new IPL("Rajasthan Royals (Old)", "Shane Watson", "Jaipur", 2008, 20, 180, 95, 85, 52.8, "Zubin Bharucha");
+        System.out.println("teamName:" + instance20.teamName);
+        System.out.println("captain:" + instance20.captain);
+        System.out.println("city:" + instance20.city);
+        System.out.println("foundedYear:" + instance20.foundedYear);
+        System.out.println("teamId:" + instance20.teamId);
+        System.out.println("matchesPlayed:" + instance20.matchesPlayed);
+        System.out.println("matchesWon:" + instance20.matchesWon);
+        System.out.println("matchesLost:" + instance20.matchesLost);
+        System.out.println("winPercentage:" + instance20.winPercentage);
+        System.out.println("coach:" + instance20.coach);
+        System.out.println("..........................");
+
+    }
+}
