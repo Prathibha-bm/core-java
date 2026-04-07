@@ -4,14 +4,14 @@ class KeyChainRunner{
 		
 		if (keyChain!=null){
 			System.out.println("valid");
-			
+			keyChain.info();
 		}
 		
 		else{
 			System.out.println("Invalid");
 		}
 		
-		keyChain.info();
+		
 	}
 }
 

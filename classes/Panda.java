@@ -4,7 +4,7 @@ class Panda{
 	String scientificName="Ailuropoda melanoleuca";
 	
 	void info(){
-		System.out.println("Show type: "+type);
-		System.out.println("ScientificName: "+scientificName);	
+		System.out.println("Show type: "+this.type);
+		System.out.println("ScientificName: "+this.scientificName);	
 	}
 }

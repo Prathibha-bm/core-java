@@ -4,11 +4,12 @@ class MashaRunner{
 		
 		if (masha!=null){
 			System.out.println("valid");
+			masha.info();
 		}
 		else{
 			System.out.println("Invalid");
 		}
-		masha.info();
+		
 	
 	}
 }

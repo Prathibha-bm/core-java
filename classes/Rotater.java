@@ -5,7 +5,7 @@ class Rotater{
 	String bladeMaterial="iron";
 	
 	void info(){
-		System.out.println("speedInKmps: "+speedInKmps);
-		System.out.println("bladeMaterial of coin: "+bladeMaterial);	
+		System.out.println("speedInKmps: "+this.speedInKmps);
+		System.out.println("bladeMaterial of coin: "+this.bladeMaterial);	
 	}
 }

@@ -4,11 +4,12 @@ class CoinRunner{
 		
 		if (coin!=null){
 			System.out.println("valid");
+			coin.info();
 		}
 		else{
 			System.out.println("Invalid");
 		}
-		coin.info();
+		
 		
 		
 		

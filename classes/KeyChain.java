@@ -5,8 +5,8 @@ class KeyChain{
 	
 	void info(){
 		System.out.println("Key chain info");
-		System.out.println("Value of coin: "+value);
-		System.out.println("Material of coin: "+material);	
+		System.out.println("Value of coin: "+this.value);
+		System.out.println("Material of coin: "+this.material);	
 	}
 }
 

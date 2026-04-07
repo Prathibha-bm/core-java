@@ -4,11 +4,12 @@ class PandaRunner{
 		
 		if (panda!=null){
 			System.out.println("valid");
+			panda.info();
 		}
 		else{
 			System.out.println("Invalid");
 		}
-		panda.info();
+		
 	
 	}
 }

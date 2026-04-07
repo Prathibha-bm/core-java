@@ -4,7 +4,7 @@ class Masha{
 	String category="Cartoon";
 	
 	void info(){
-		System.out.println("Show type: "+type);
-		System.out.println("Category: "+category);	
+		System.out.println("Show type: "+this.type);
+		System.out.println("Category: "+this.category);	
 	}
 }

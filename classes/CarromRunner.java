@@ -4,12 +4,13 @@ class CarromRunner{
 		
 		if (carrom!=null){
 			System.out.println("valid");
+			carrom.info();
 		}
 
 		else{
 			System.out.println("Invalid");
 		}
-		carrom.info();	
+			
 	}
 }
 

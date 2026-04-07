@@ -4,11 +4,12 @@ class MickymouseRunner{
 		
 		if (mickymouse!=null){
 			System.out.println("valid");
+			mickymouse.info();
 		}
 		else{
 			System.out.println("Invalid");
 		}
-		mickymouse.info();
+		
 	
 	}
 }

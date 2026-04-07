@@ -4,11 +4,11 @@ class RotaterRun{
 		
 		if (rotater!=null){
 			System.out.println("valid");
+			rotater.info();
 		}
 		else{
 			System.out.println("Invalid");
 		}
-		rotater.info();
 	
 	}
 }
