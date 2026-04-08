@@ -11,18 +11,19 @@ Monitor monitor;
 		
 		System.out.println("Brand: "+this.name);
 		System.out.println("Price: "+this.price);
-		System.out.println("Rating: "+this.rating);
+		System.out.println("Rating: "+this.rating);//0.0
 	}
 
 
 	void classAsVariable(Monitor monitor){
 		System.out.println("Running info in LaptopMonitor");
-		
+				System.out.println("Rating: "+this.rating);//0.0
+
 		if(this.monitor!=null){
 			this.monitor.info();
 		}
 		else{
-			System.out.prinln("Invalid ");
+			System.out.println("Invalid");
 			
 		}	
 	}

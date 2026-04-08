@@ -6,11 +6,11 @@ class MonitorRunner{
 		monitor.type="Laptop";
 		monitor.brand=Brand.HP;
 		
-	LaptopMonitor laptopMonitor=new laptopMonitor("HP",76000);
+	LaptopMonitor laptopMonitor=new LaptopMonitor("HP",76000);
 		laptopMonitor.rating=8.7;
 		laptopMonitor.monitor=monitor;
 	
-	laptopMonitor.classAsVariable();
+	laptopMonitor.classAsVariable(monitor);
 	
 	
 	
