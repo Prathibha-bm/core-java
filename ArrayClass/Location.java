@@ -1,0 +1,3 @@
+enum Location{
+COAST1,COAST2,COAST3
+}
