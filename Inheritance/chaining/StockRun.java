@@ -1,0 +1,8 @@
+class StockRun{
+	public static void main(String[] args){
+		StockChild stockChild=new StockChild(10231,103.2,1342.6,5000000000.0,true);
+		
+	}
+	
+	
+}

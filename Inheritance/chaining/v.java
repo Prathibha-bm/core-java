@@ -1,0 +1,2 @@
+class PaintChild extends  Paint{
+}
