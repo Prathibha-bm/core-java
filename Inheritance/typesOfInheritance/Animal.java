@@ -1,7 +1,7 @@
 class Animal{
 
- void info(){
- System.out.println("Animal");
+ void parentClass(){
+ System.out.println("\nAnimal Information(Parent Class)");
 }
 
 
